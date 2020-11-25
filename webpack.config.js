@@ -1,5 +1,5 @@
 const path = require('path');
-const output = path.join(__dirname, './public');
+const output = path.join(__dirname, './docs');
 
 module.exports = {
     entry: './src/App.js',
