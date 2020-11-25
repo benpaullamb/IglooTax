@@ -82,3 +82,32 @@ html, body, #root {
 .input__button:hover {
     cursor: pointer;
 }
+
+/* Results */
+/* -------------------------------- */
+.results__table {
+    margin-bottom: 32px;
+    border-collapse: collapse;
+}
+
+.results__table th {
+    text-align: start;
+}
+
+.results__table td, th {
+    padding: 8px 24px;
+    border: 1px solid grey;
+}
+
+.results__band {
+    background: lightgrey;
+}
+
+.results__total {
+    color: white;
+    background: #709da2;
+}
+
+.results__net {
+    font-size: 28px;
+}
