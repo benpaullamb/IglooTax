@@ -7,4 +7,4 @@ You can access this web app here: https://benpaullamb.github.io/IglooTax/ hosted
 
 This web app uses option 1. front-end application. I created this with React.js. The design of the application is made to mimic Igloo Energy's website design.
 
-Some basics tests were written with Jest for the gross to net calculations, including actual example salaries, along with other inputs such as non-numbers.
+Some basic tests were written with Jest for the gross to net calculations, including actual example salaries, along with other inputs such as non-numbers.
