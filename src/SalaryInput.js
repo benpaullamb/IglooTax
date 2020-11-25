@@ -12,10 +12,10 @@ export default class SalaryInput extends Component {
         return (
             <div className="input page">
                 <div className="page__container">
-                    <span className="input__prompt">Calulate your income tax</span>
+                    <span className="input__prompt">Calulate your yearly income tax</span>
                     <input
                         value={this.state.grossSalary} onChange={e => this.onSalaryChange(e.target.value)}
-                        type="number" placeholder="Enter gross salary" className="input__input"/>
+                        type="number" placeholder="Enter yearly gross salary" className="input__input"/>
                     <button onClick={() => this.onCalculate()} className="input__button">Calculate</button>
                 </div>
             </div>

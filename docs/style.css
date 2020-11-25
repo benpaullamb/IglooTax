@@ -103,11 +103,19 @@ html, body, #root {
     background: lightgrey;
 }
 
-.results__total {
+.results__special {
     color: white;
     background: #709da2;
 }
 
 .results__net {
+    display: block;
+    margin-bottom: 8px;
     font-size: 28px;
+}
+
+.results__student {
+    display: block;
+    color: grey;
+    font-size: 14px;
 }
