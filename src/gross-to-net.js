@@ -13,6 +13,8 @@ module.exports = function calculateNetSalary(grossSalary) {
         };
     }
 
+    console.log('ok 22')
+
     let basicRate = 0, higherRate = 0, additionalRate = 0;
     
     // Basic rate

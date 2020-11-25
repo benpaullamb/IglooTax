@@ -24,7 +24,7 @@ export default class SalaryInput extends Component {
 
     onSalaryChange(salary) {
         this.setState({
-            grossSalary: salary
+            grossSalary: Number(salary)
         });
     }
 
